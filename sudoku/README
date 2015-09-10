@@ -1,0 +1,41 @@
+********************************************************************************
+                                   README
+********************************************************************************
+
+The web surely already has a hundred sudoku apps...does it really need another?
+
+Well, I was sitting in my house one evening, toying with a book of "Sudoku" 
+puzzles my son had bought me for Christmas, and I thought I'd skip to the chase
+and try the very hardest puzzle in the back of the book.  (Specifically, the
+"hard.txt" board included in this distribution.)
+
+After applying every rule of logic and intuition I could think of, I couldn't
+get the board past the half-way point.  I've solved a lot of "hard" level 
+puzzles entirely by logic, but this was the first one where I decided you
+simply needed to brute-force (i.e., "guess") your way through the final 
+permutations.
+
+And I simply haven't the patience or interest to do that by hand; the joy in
+such games is solving them with logic, and simply running through a tedious
+set of combinatorials...well, that's a job for servants.  Mathy servants.
+
+Computers :-)
+
+So why not just download one of the many Sudoku solvers already on the web?
+Well, two reasons:
+
+(1) That's cheating.  If I do the work myself, I can still claim to have
+    defeated the puzzle.
+
+(2) We don't have broadband at our home yet, but I did have GCC...
+
+Posted in case any Comp-Sci students out there are "puzzling" through
+recursion and need a refresher in basic game theory.
+
+Oh, and as to optimizations: heck yeah, this could be made faster.
+However, what makes these games fun is doing those logic tricks in your
+head; this program was intended for use ONLY when brute-force was the
+only option left...and this works just fine for that.
+
+Mark Zieg
+Berkshire, UK
